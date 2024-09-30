@@ -7,9 +7,10 @@
         if(i % a == 0 || i % b == 0){
             sum +=i;
         }
+    }
         alert("Sum="+sum)
         
-         }
+         
         }
          function GetValues()
          {
