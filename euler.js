@@ -1,9 +1,22 @@
- sum=0;
- for(let i=1; i<1000; i++){
-if(i % 3 == 0 || i % 5 == 0){
-    sum +=i;
-}
 
-
- }
  alert (sum)
+ function sum(a,b,b)
+ {
+    sum=0;
+    for(let i=1; i<1000; i++){
+        if(i % a == 0 || i % b == 0){
+            sum +=i;
+        }
+        alert("Sum="+sum)
+        
+         }
+         function GetValues()
+         {
+
+            num1= document.getElementById("num1").value;
+            num2= document.getElementById("num2").value;
+            limit= document.getElementById("limit").value;
+            sum(num1,num2,limit);
+
+         }
+ }
