@@ -1,5 +1,5 @@
 
- alert (sum)
+
  function sum(a,b,b)
  {
     sum=0;
@@ -10,6 +10,7 @@
         alert("Sum="+sum)
         
          }
+        }
          function GetValues()
          {
 
@@ -19,4 +20,4 @@
             sum(num1,num2,limit);
 
          }
- }
+ 
