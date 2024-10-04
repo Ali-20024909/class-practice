@@ -31,7 +31,7 @@
 
     }
 
-    function GetValues()
+    function Show()
     {
 
             num1= document.getElementById("num1").style.display="block";
@@ -42,9 +42,28 @@
             limit=document.getElementById("label2").style.display="block";
             limit=document.getElementById("label3").style.display="block";
             
-
+            l=[1,2,3,4];
+            a=1;
+            b=2;
+            num(a,b,l);
     }
-       
+      
+
+
+    function num(a,b,l){
+        sum=0;
+        for(i=0;i<l.lenght;i++)
+        {
+            
+            if(l[i] % a==0 || l[i] % b==0)
+                sum+=l[i];
+        }
+        alert("sum" +sum);
+    }
+
+
+
+     
    
 
  
