@@ -61,7 +61,7 @@
        alert("Sum"+sum);
     }
 
-     
+    function calculateTotalCost(basket, prices) {}
+            
+        
    
-
- 
