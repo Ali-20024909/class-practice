@@ -59,7 +59,7 @@
                 sum+=l[i];
         }
        alert("Sum"+sum);
-
+    }
 
      
    
