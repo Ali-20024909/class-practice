@@ -58,9 +58,7 @@
             if(l[i] % a==0 || l[i] % b==0)
                 sum+=l[i];
         }
-        alert("sum" +sum);
-    }
-
+       alert("Sum"+sum);
 
 
      
